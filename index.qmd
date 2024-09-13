@@ -1,0 +1,17 @@
+---
+title: ""
+subtitle: ""
+listing:
+  contents: blog
+  sort: "date desc"
+  type: grid
+  categories: true
+  fields: [image, date, title, reading-time, categories]
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+sidebar: false
+---
+
+

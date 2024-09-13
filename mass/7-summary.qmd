@@ -1,0 +1,13 @@
+---
+title: "Summary"
+---
+
+Mass spectrometers are powerful tools used to identify and analyze molecules based on their mass. These instruments detect molecules as charged particles (called molecular ions) and measure their mass-to-charge ratio and signal strength. A mass spectrometer has three main parts: the ion source, the mass analyzer, and the detector.
+
+The effectiveness of a mass spectrometer depends on several key performance factors, such as how accurately it can measure mass (mass accuracy) and how well it can distinguish between different masses (mass resolution). There are various types of mass spectrometers, and choosing the right one depends on what you need to analyze.
+
+We've discussed the principles of mass separation in two types of mass spectrometers: triple quadrupole and time-of-flight (TOF) instruments. Triple quadrupole systems are great for quantifying the amount of a specific substance in a sample. In contrast, TOF mass spectrometers are better for identifying different substances in complex mixtures.
+
+Finally, we talked about some common challenges in using mass spectrometry and ways to overcome them.
+
+ 

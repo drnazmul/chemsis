@@ -1,0 +1,126 @@
+---
+title: "Mass Spectra"
+#image: "Ts-experiment.jpg"
+---
+
+## Display of Mass Spectral Data
+
+Mass spectral data can be displayed in different ways, depending on which aspect you want to view. We distinguish between the Mass Spectrum, the total iron chromatogram, extracted ion chromatogram and the base peak chromatogram. next let's see what the difference is
+
+
+
+## Mass Spectrum
+
+ A mass spectrum is a two-dimensional graph showing ion signals detected by a mass spectrometer. The x-axis represents the mass-to-charge ratio (m/z), and the y-axis shows the signal intensity. Each mass spectrum results from a single recording event, known as a scan, in the mass spectrometer.
+
+When comparing the same type of molecule, the signal intensity can provide quantitative information. 
+The highest peak in a spectrum is called the base peak. Any very small and insignificant data is referred to as noise. 
+
+### Isotope patterns
+
+When we look at the signal from a single ion, we see a group of peaks instead of just one peak. These peaks are called isotopic peaks and they reflect the natural distribution of isotopes in the elements that make up the compound.
+
+The isotope pattern of a compound is mainly influenced by its carbon atoms. Most carbon atoms (98.89%) have a mass of exactly 12 Daltons. However, about 1.1% of carbon atoms have an extra neutron, giving them a mass of 13 Daltons.
+
+The monoisotopic mass of a compound is the mass of molecules that contain only carbon-12 atoms. The next peak, or the second isotope peak, represents molecules that have one carbon-13 atom. The peak after that represents molecules with two carbon-13 atoms, and so on. This results in a mass difference of approximately one Dalton between the isotopic peaks of a compound.
+
+
+### Information gained by isotope patterns
+
+Isotope patterns in mass spectrometry can provide a lot of useful information about a sample. By examining the distances between signals in an isotope pattern, you can determine the charge state of the analyte. For instance, if you see that the signals are spaced about one dalton apart, the ion is likely singly charged. If the signals are spaced about 0.5 dalton apart, the ion is likely doubly charged. 
+
+Additionally, certain elements have unique isotope patterns that can help you identify the elemental composition of the analyte. For example, if the third isotope peak is higher than the second one, it suggests that the compound contains chlorine or bromine.
+
+By paying attention to these details, you can gain valuable insights into the nature of the analyte you are studying. 
+
+
+## Total Ion Chromatogram (TIC)
+
+A Total Ion Chromatogram (TIC) is a graph that shows the total number of ions hitting a detector over time during a mass spectrometry analysis. Each point on the TIC represents the sum of all ion intensities detected at that specific moment. 
+
+Imagine you're at a busy train station during rush hour, and you're interested in counting the number of people who pass through the station over time. Instead of watching continuously, you decide to take a snapshot every few seconds. Each snapshot captures a different moment in time, showing how many people were in the station at that instant.
+
+In this analogy:
+
+- Each snapshot represents a scan from the mass spectrometer.
+- The number of people in each snapshot corresponds to the number of ions detected in that scan.
+- When you plot the number of people in each snapshot on a graph, the y-axis represents the signal intensity (number of ions), and the x-axis represents time or scan number.
+
+So, just as you would analyze the snapshots to understand the flow of people through the station, in mass spectrometry, you analyze the scans to understand the distribution and intensity of ions over time. 
+
+In a TIC, you can see when the detector recorded more ions and when it recorded fewer ions over time. However, the TIC does not provide any information about the types of ions detected. It only shows the total ion count at each time point. 
+
+
+
+## Extracted Ion Chromatogram (XIC)
+
+
+Imagine you're observing a busy train station. You see all kinds of people—men, women, children, people with hats, people with glasses, and so on. If you were to plot a chart of all the people you see over time, that would be like a total ion chromatogram (TIC). It captures everything.
+
+Now, let's say you're only interested in people wearing glasses. You focus on them and make a note every time you see someone with glasses. This new chart, showing only people with glasses, is like an extracted ion chromatogram (XIC). 
+
+In an XIC, each point on the chart represents the intensity of a specific ion, or more precisely, a specific mass-to-charge ratio (m/z value). This is useful because it lets you see exactly when a particular ion was detected and how strong its signal was.
+
+So, just like focusing on people with glasses in the train station, an XIC helps you zero in on specific ions from all the data you've collected.
+
+## Base Peak Chromatogram (BPC)
+
+The Base Peak Chromatogram (BPC) is a way to monitor only the intensity of the ion with the highest intensity (the base peak) that hits the detector at any given time.
+
+Imagine you are watching people at a train station. In this example, instead of counting all the people in each photo you take, you only count the type of people (from the different categories:  children, women, men,  people with glasses) who appear the most times in each photo. This people represent the ion with the highest intensity at that moment.
+
+Just like the Total Ion Chromatogram (TIC), which records the total number of ions detected over time, the BPC records how many ions of the most intense type are detected at each time point. However, remember that each data point in the BPC can come from a different type of people(or ion) with a different mass-to-charge (M/z) value. 
+
+The BPC gives you a cleaner look because it focuses on just one type of ion per scan, making it easier to identify trends and patterns. 
+
+
+
+## Relationship of chromatograms and mass spectra
+
+By combining ion chromatograms and mass spectra, you can get detailed information about your analytes. The chromatogram displays how the signal intensity changes over time or with each scan. The mass spectrum, on the other hand, shows which ions are detected at specific times and how strong the signals of individual analytes are.
+
+## Collision Induced Dissociation (CID)
+
+Most molecular ions are stable when they are in the gas phase. However, we can make them break apart inside a mass spectrometer using a technique called Collision Induced Dissociation (CID). In this process, the ions collide with gas molecules, causing them to fragment at specific bonds within the molecule.
+
+These fragments are unique to each compound. By analyzing the pattern of these fragments, we can identify the original molecule in the sample.
+
+### Key Points:
+- **Stable Ions:** Molecular ions are generally stable in the gas phase.
+- **Induced Fragmentation:** We can force these ions to break apart using CID.
+- **Specific Bonds:** Fragmentation happens at specific bonds within the molecule.
+- **Unique Fragments:** The resulting fragments are unique to each compound.
+- **Identification:** By studying these fragments, we can determine which molecule was in the sample.
+
+This method is a powerful tool for identifying unknown compounds in a sample by breaking them down into their characteristic pieces. 
+
+
+
+## MS/MS Fragment Spectrum
+
+When we perform a CID (Collision-Induced Dissociation) experiment, we get an MS/MS spectrum as a result. To make sense of this data, it's essential to know that many mass spectrometers can select specific ions, known as precursor ions. These precursor ions are then fragmented, and the resulting smaller pieces, called fragment ions, are detected.
+
+The fragmentation happens at specific molecular bonds, which means that the fragment spectrum can tell apart different molecules, even if they have the same precursor mass. This is because the pattern of fragments will be different for each molecule.
+
+In an MS/MS spectrum, the x-axis shows the m/z (mass-to-charge) values of the fragment ions, and the y-axis shows their intensity. The intensity indicates how many of each fragment ion are detected.
+
+By analyzing this spectrum, we can identify and distinguish between different molecules based on their unique fragmentation patterns. 
+ 
+
+
+### MS/MS Fragmentation Naming Conventions
+
+In mass spectrometry, the process of breaking apart ions to study their fragments is known by several names: MS/MS, tandem MS, or MS². Here's a simple breakdown of the terms used in this technique:
+
+- **Precursor Ion**: Also called the parent ion, this is the original ion that is selected for fragmentation.
+- **Fragment Ions**: These are the smaller pieces that result from breaking apart the precursor ion. They are sometimes referred to as daughter ions.
+
+It's important to note that the types of fragment ions observed can vary depending on the specific setup of the mass spectrometer. Different instruments might produce different fragmentation patterns for the same molecule.
+
+This variability is illustrated in the following example:
+
+[Example would be inserted here]
+
+By understanding these basic terms and concepts, you can better interpret the results from MS/MS experiments and understand how different instruments might affect the outcomes. 
+
+

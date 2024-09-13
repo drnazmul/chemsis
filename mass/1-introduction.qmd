@@ -1,0 +1,89 @@
+---
+title: "Introduction"
+subtitle: ""
+---
+
+A mass spectrometer is a device used to analyze molecules by their molecular mass. Every mass spectrometer, regardless of its type, has three main parts:
+
+-   the ion source: creates charged particles from the sample
+-   the mass analyzer: sorts these particles by their mass
+-   the detector: measures them
+
+The collected data is then sent to a computer as mass spectra, where it can be analyzed and interpreted.
+
+![Three basic components of a mass spectrometer](img/1-three-components.jpg)
+
+## Mass Spectrometers
+
+Molecular mass is a useful property for distinguishing different molecules. Each type of atom has a specific mass, so when you add up the masses of all the atoms in a molecule, you get its unique molecular mass. Therefore, molecular mass serves as a reliable fingerprint for molecules.
+
+Let's look at caffeine as an example. Caffeine is made up of eight carbon atoms, ten hydrogen atoms, four nitrogen atoms, and two oxygen atoms. When you add up the weights of all these atoms, you get a molecular mass of 194.19 grams per mole.
+
+The elemental composition thus determines the molecular mass
+
+![Caffeine as an example](img/2-caffeine.jpg){fig-align = "center"}
+
+The types and numbers of atoms in a molecule determine its molecular mass. This makes molecular mass a unique and important characteristic for identifying different molecules.
+
+### Molecular Ions In Mass Spectrometry
+
+A mass spectrometer detects ions, not neutral molecules. This means that if a molecule cannot form an ion, it cannot be detected by the instrument. Additionally, these ions must be stable in the gas phase to be measured accurately.
+
+Fortunately, many different molecules can form either positively or negatively charged ions that are stable in the gas phase and can be detected. In positive ion mode, molecules are often detected in their protonated form, meaning they have gained a proton (H⁺).
+
+This ability to form ions is crucial for the mass spectrometer to work effectively, allowing us to analyze a wide range of substances.
+
+In negative ion mode, most molecules become ions by losing a proton. The best ion mode to use depends on the specific molecule you are analyzing.
+
+When the properties of molecules allow, we can observe them as multiply charged ions. This is often true for larger molecules, such as peptides or proteins. Thus the molecular ions have a certain Mass to charge ratio which is an important measure in mass spectrom
+
+### m/z Ratio
+
+### Determining the m/z Ratio: A Simple Guide
+
+To determine the m/z (mass-to-charge) ratio of a molecule, you first need to know its molecular mass. For simplicity, we'll use the nominal mass, ignoring decimal places in atomic masses.
+
+Let's take lysine as an example. The nominal mass (M) of lysine is 146 Daltons.
+
+When using positive ion mode in mass spectrometry, lysine typically gains a proton. A proton has a charge (z) of +1 and a mass of approximately 1 Dalton.
+
+Here's how you calculate the m/z ratio:
+
+1.  **Add the Masses:** Combine the mass of lysine (146 Daltons) with the mass of the added proton (1 Dalton). $$ 146 Daltons + 1 Dalton = 147 Daltons$$
+
+2.  **Divide by the Charge:** Since the proton has a charge of +1, you divide the total mass by this charge.
+
+$$\frac{147 Daltons}{ 1}= 147$$
+
+So, the m/z value for lysine in positive ion mode is 147.
+
+### General Formula for m/z Ratios
+
+To calculate the m/z ratio for any positively or negatively charged ion, always consider the number of protons added or removed:
+
+1.  **Positive Ion Mode:** Add the number of protons to the molecular mass.
+2.  **Negative Ion Mode:** Subtract the number of protons from the molecular mass.
+3.  **Divide by the Charge:** Finally, divide the adjusted mass by the charge (z).
+
+By following these steps, you can easily determine the m/z ratio for any molecule.
+
+### Function of the Instrument Parts
+
+**Three Main Parts of a Mass Spectrometer**
+
+A mass spectrometer has three main functional parts: the ion source, the mass analyzer, and the detector. Let’s break down what each part does:
+
+1.  **Ion Source**
+    -   This is where molecules are prepared for detection. First, the solvent is removed, leaving the molecules in the gas phase. Then, the molecules are ionized, meaning they are given a charge so they can be detected.
+    -   There are different ways to ionize molecules. The most common method is called Electrospray Ionization (ESI). Another widely used method is Atmospheric Pressure Chemical Ionization (APCI).
+2.  **Mass Analyzer**
+    -   Once the molecules are ionized and in the gas phase, they enter the mass analyzer. This part operates under a vacuum to keep the ions in the gas phase and allow them to move freely.
+    -   The mass analyzer separates the ions based on their mass-to-charge ratio (m/z). This means it sorts ions according to their mass and charge.
+    -   There are various types of mass analyzers, each using different physical principles to separate ions by their m/z ratios.
+3.  **Detector**
+    -   The detector measures how many ions with a specific m/z ratio hit its surface at any given time.
+    -   This information is used to create a mass spectrum, which helps identify and quantify the molecules in the sample.
+
+Here’s a video from Sciex that explains the process visually:
+
+https://www.youtube.com/watch?v=VUmcxNLHu4Y&t=97s
