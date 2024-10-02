@@ -7,8 +7,6 @@ title: "Mass Spectra"
 
 Mass spectral data can be displayed in different ways, depending on which aspect you want to view. We distinguish between the Mass Spectrum, the total iron chromatogram, extracted ion chromatogram and the base peak chromatogram. next let's see what the difference is
 
-
-
 ## Mass Spectrum
 
  A mass spectrum is a two-dimensional graph showing ion signals detected by a mass spectrometer. The x-axis represents the mass-to-charge ratio (m/z), and the y-axis shows the signal intensity. Each mass spectrum results from a single recording event, known as a scan, in the mass spectrometer.
@@ -16,22 +14,7 @@ Mass spectral data can be displayed in different ways, depending on which aspect
 When comparing the same type of molecule, the signal intensity can provide quantitative information. 
 The highest peak in a spectrum is called the base peak. Any very small and insignificant data is referred to as noise. 
 
-### Isotope patterns
-
-When we look at the signal from a single ion, we see a group of peaks instead of just one peak. These peaks are called isotopic peaks and they reflect the natural distribution of isotopes in the elements that make up the compound.
-
-The isotope pattern of a compound is mainly influenced by its carbon atoms. Most carbon atoms (98.89%) have a mass of exactly 12 Daltons. However, about 1.1% of carbon atoms have an extra neutron, giving them a mass of 13 Daltons.
-
-The monoisotopic mass of a compound is the mass of molecules that contain only carbon-12 atoms. The next peak, or the second isotope peak, represents molecules that have one carbon-13 atom. The peak after that represents molecules with two carbon-13 atoms, and so on. This results in a mass difference of approximately one Dalton between the isotopic peaks of a compound.
-
-
-### Information gained by isotope patterns
-
-Isotope patterns in mass spectrometry can provide a lot of useful information about a sample. By examining the distances between signals in an isotope pattern, you can determine the charge state of the analyte. For instance, if you see that the signals are spaced about one dalton apart, the ion is likely singly charged. If the signals are spaced about 0.5 dalton apart, the ion is likely doubly charged. 
-
-Additionally, certain elements have unique isotope patterns that can help you identify the elemental composition of the analyte. For example, if the third isotope peak is higher than the second one, it suggests that the compound contains chlorine or bromine.
-
-By paying attention to these details, you can gain valuable insights into the nature of the analyte you are studying. 
+![](img/2-1-mass-spectrum.svg)
 
 
 ## Total Ion Chromatogram (TIC)

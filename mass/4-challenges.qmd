@@ -1,7 +1,24 @@
 ---
 title: "Challenges in MS"
 ---
+### Isotope patterns
 
+When we look at the signal from a single ion, we see a group of peaks instead of just one peak. These peaks are called isotopic peaks and they reflect the natural distribution of isotopes in the elements that make up the compound.
+
+The isotope pattern of a compound is mainly influenced by its carbon atoms. Most carbon atoms (98.89%) have a mass of exactly 12 Daltons. However, about 1.1% of carbon atoms have an extra neutron, giving them a mass of 13 Daltons.
+
+The monoisotopic mass of a compound is the mass of molecules that contain only carbon-12 atoms. The next peak, or the second isotope peak, represents molecules that have one carbon-13 atom. The peak after that represents molecules with two carbon-13 atoms, and so on. This results in a mass difference of approximately one Dalton between the isotopic peaks of a compound.
+
+
+### Information gained by isotope patterns
+
+Isotope patterns in mass spectrometry can provide a lot of useful information about a sample. By examining the distances between signals in an isotope pattern, you can determine the charge state of the analyte. For instance, if you see that the signals are spaced about one dalton apart, the ion is likely singly charged. If the signals are spaced about 0.5 dalton apart, the ion is likely doubly charged. 
+
+Additionally, certain elements have unique isotope patterns that can help you identify the elemental composition of the analyte. For example, if the third isotope peak is higher than the second one, it suggests that the compound contains chlorine or bromine.
+
+By paying attention to these details, you can gain valuable insights into the nature of the analyte you are studying. 
+
+#################
 
 ## Challenges in Mass Spectrometry
 

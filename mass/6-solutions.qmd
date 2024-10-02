@@ -99,3 +99,29 @@ To accurately identify caffeine, we can use its unique fragments that are not pr
 One of the strengths of a mass spectrometer is its ability to perform many MRM experiments simultaneously. This means you can monitor multiple target compounds in a single analysis, making the process efficient and comprehensive.
 
 By using MRM, you can confidently analyze complex samples and accurately identify your target molecules, even in the presence of similar compounds. 
+
+### Function of the Instrument Parts
+
+>Note: This section taken from introduction
+
+**Three Main Parts of a Mass Spectrometer**
+
+A mass spectrometer has three main functional parts: the ion source, the mass analyzer, and the detector. Let’s break down what each part does:
+
+1.  **Ion Source**
+    -   This is where molecules are prepared for detection. First, the solvent is removed, leaving the molecules in the gas phase. Then, the molecules are ionized, meaning they are given a charge so they can be detected.
+    -   There are different ways to ionize molecules. The most common method is called Electrospray Ionization (ESI). Another widely used method is Atmospheric Pressure Chemical Ionization (APCI).
+2.  **Mass Analyzer**
+    -   Once the molecules are ionized and in the gas phase, they enter the mass analyzer. This part operates under a vacuum to keep the ions in the gas phase and allow them to move freely.
+    -   The mass analyzer separates the ions based on their mass-to-charge ratio (m/z). This means it sorts ions according to their mass and charge.
+    -   There are various types of mass analyzers, each using different physical principles to separate ions by their m/z ratios.
+3.  **Detector**
+    -   The detector measures how many ions with a specific m/z ratio hit its surface at any given time.
+    -   This information is used to create a mass spectrum, which helps identify and quantify the molecules in the sample.
+
+Here’s a video from Sciex that explains the process visually:
+
+[](https://www.youtube.com/watch?v=VUmcxNLHu4Y&t=97s)
+
+
+
