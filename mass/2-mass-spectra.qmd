@@ -1,17 +1,20 @@
 ---
-title: "Mass Spectra"
+title: "Mass Spectral Data"
 #image: "Ts-experiment.jpg"
 ---
 
-## Display of Mass Spectral Data
+Mass spectral data can be displayed in different ways, depending on which aspect you want to view, such as:
 
-Mass spectral data can be displayed in different ways, depending on which aspect you want to view. We distinguish between the Mass Spectrum, the total iron chromatogram, extracted ion chromatogram and the base peak chromatogram. next let's see what the difference is
+- Mass Spectrum
+- Total iron chromatogram
+- Extracted ion chromatogram
+- Base peak chromatogram
+
 
 ## Mass Spectrum
 
- A mass spectrum is a two-dimensional graph showing ion signals detected by a mass spectrometer. The x-axis represents the mass-to-charge ratio (m/z), and the y-axis shows the signal intensity. Each mass spectrum results from a single recording event, known as a scan, in the mass spectrometer.
+A mass spectrum is a two-dimensional graph showing ion signals detected by a mass spectrometer. The x-axis represents the mass-to-charge ratio (m/z), and the y-axis shows the signal intensity. Each mass spectrum results from a single recording event, known as a scan, in the mass spectrometer.
 
-When comparing the same type of molecule, the signal intensity can provide quantitative information. 
 The highest peak in a spectrum is called the base peak. Any very small and insignificant data is referred to as noise. 
 
 ![](img/2-1-mass-spectrum.svg)
@@ -46,6 +49,7 @@ In an XIC, each point on the chart represents the intensity of a specific ion, o
 
 So, just like focusing on people with glasses in the train station, an XIC helps you zero in on specific ions from all the data you've collected.
 
+
 ## Base Peak Chromatogram (BPC)
 
 The Base Peak Chromatogram (BPC) is a way to monitor only the intensity of the ion with the highest intensity (the base peak) that hits the detector at any given time.
@@ -61,49 +65,4 @@ The BPC gives you a cleaner look because it focuses on just one type of ion per 
 ## Relationship of chromatograms and mass spectra
 
 By combining ion chromatograms and mass spectra, you can get detailed information about your analytes. The chromatogram displays how the signal intensity changes over time or with each scan. The mass spectrum, on the other hand, shows which ions are detected at specific times and how strong the signals of individual analytes are.
-
-## Collision Induced Dissociation (CID)
-
-Most molecular ions are stable when they are in the gas phase. However, we can make them break apart inside a mass spectrometer using a technique called Collision Induced Dissociation (CID). In this process, the ions collide with gas molecules, causing them to fragment at specific bonds within the molecule.
-
-These fragments are unique to each compound. By analyzing the pattern of these fragments, we can identify the original molecule in the sample.
-
-### Key Points:
-- **Stable Ions:** Molecular ions are generally stable in the gas phase.
-- **Induced Fragmentation:** We can force these ions to break apart using CID.
-- **Specific Bonds:** Fragmentation happens at specific bonds within the molecule.
-- **Unique Fragments:** The resulting fragments are unique to each compound.
-- **Identification:** By studying these fragments, we can determine which molecule was in the sample.
-
-This method is a powerful tool for identifying unknown compounds in a sample by breaking them down into their characteristic pieces. 
-
-
-
-## MS/MS Fragment Spectrum
-
-When we perform a CID (Collision-Induced Dissociation) experiment, we get an MS/MS spectrum as a result. To make sense of this data, it's essential to know that many mass spectrometers can select specific ions, known as precursor ions. These precursor ions are then fragmented, and the resulting smaller pieces, called fragment ions, are detected.
-
-The fragmentation happens at specific molecular bonds, which means that the fragment spectrum can tell apart different molecules, even if they have the same precursor mass. This is because the pattern of fragments will be different for each molecule.
-
-In an MS/MS spectrum, the x-axis shows the m/z (mass-to-charge) values of the fragment ions, and the y-axis shows their intensity. The intensity indicates how many of each fragment ion are detected.
-
-By analyzing this spectrum, we can identify and distinguish between different molecules based on their unique fragmentation patterns. 
- 
-
-
-### MS/MS Fragmentation Naming Conventions
-
-In mass spectrometry, the process of breaking apart ions to study their fragments is known by several names: MS/MS, tandem MS, or MS². Here's a simple breakdown of the terms used in this technique:
-
-- **Precursor Ion**: Also called the parent ion, this is the original ion that is selected for fragmentation.
-- **Fragment Ions**: These are the smaller pieces that result from breaking apart the precursor ion. They are sometimes referred to as daughter ions.
-
-It's important to note that the types of fragment ions observed can vary depending on the specific setup of the mass spectrometer. Different instruments might produce different fragmentation patterns for the same molecule.
-
-This variability is illustrated in the following example:
-
-[Example would be inserted here]
-
-By understanding these basic terms and concepts, you can better interpret the results from MS/MS experiments and understand how different instruments might affect the outcomes. 
-
 

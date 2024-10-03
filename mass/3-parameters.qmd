@@ -3,9 +3,7 @@ title: "Key Parameters"
 #image: "Ts-experiment.jpg"
 ---
 
-## Key Parameters in Mass Spectrometry
-
-**Mass Range**
+### Mass Range
 
 Each type of mass spectrometer can detect ions within a specific range of mass-to-charge (m/z) values. Think of this like the field of view in photography—some lenses capture wide angles, while others zoom in on details. In mass spectrometry, you can control which ions are allowed to enter the instrument for detection.
 
@@ -29,7 +27,7 @@ The scan speed determines how many scans are taken over a certain period. If the
 Imagine you're trying to take a photograph of people crossing a busy train station. If your camera takes pictures slowly, you might miss capturing some of the people in action. Similarly, in mass spectrometry, a slower scan speed increases the chances of missing some ions. Just as you would miss some of the people who move quickly through the station, a slow scan speed in mass spectrometry might fail to detect ions that are present for only a brief moment. 
 
 
- ### Mass Resolution
+### Mass Resolution
 
 You might be familiar with the term "resolution" from your TV or camera, where it describes the amount of detail an image can show.
 
@@ -47,9 +45,7 @@ In summary, high mass resolution in a mass spectrometer is akin to a high-resolu
 
 
 
-
-Sensitivity
-### Sensitivity in Analytical Science
+### Sensitivity
 
 Sensitivity is a term that comes up often in different fields. Generally, it refers to the ability to detect something, like touch or pain. In the context of spectrometry, sensitivity is crucial. It defines how well the instrument can detect a specific compound.
 
@@ -63,9 +59,6 @@ Several factors influence sensitivity in mass spectrometry:
 Good sensitivity means you can detect and analyze lower concentrations of a substance. This is essential for accurate and reliable results in many scientific analyses. 
 
 
-
-
-Signal-to-noise
 ### Signal-to-Noise Ratio
 
 The signal-to-noise ratio (SNR) is a key concept that helps us determine whether we can detect an important signal amidst surrounding noise. To find the SNR, you need to measure the intensity of both the signal and the noise. Then, you calculate the ratio of these two values.

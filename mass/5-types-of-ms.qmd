@@ -1,11 +1,11 @@
 ---
-title: "Type of MS"
+title: "Type of Mass Spectrometers"
 ---
 
+Mass Spectrometers vary based on how they sort ions using their mass analyzers. The choice of mass spectrometer depends on the goals of your analysis. Below is a brief overview of two common types: 
 
-## Types of Mass Spectrometers
-
-Before diving into the challenges of mass spectrometry and their solutions, it's essential to understand the different types of mass spectrometers available. These instruments vary based on how they sort ions using their mass analyzers. The choice of mass spectrometer depends on the goals of your analysis. Below is a brief overview of two common types: triple quadrupole and time-of-flight (TOF) mass spectrometers.
+- triple quadrupole
+- time-of-flight (TOF) mass spectrometers
 
 ### Triple Quadrupole Mass Spectrometers
 
@@ -22,13 +22,7 @@ The most common mode of operation for a triple quadrupole mass spectrometer is c
 By understanding these principles, you can better choose the right type of mass spectrometer for your analytical needs. 
 
 
-
-
-
-What can a triple quadrupole MS do?
-
-
-### Triple Quadrupole Mass Spectrometry: A Reliable Tool for Complex Sample Analysis
+#### What can a triple quadrupole MS do?
 
 A triple quadrupole mass spectrometer (MS) is an incredibly useful instrument, especially when working with complex samples. Imagine you need to analyze a specific molecule, but your sample contains other molecules with similar mass-to-charge (m/z) values. These could be isobaric molecules (same mass) or near-isobaric molecules (very close in mass).
 
@@ -59,8 +53,7 @@ A time-of-flight (TOF) mass spectrometer is a device used to sort ions based on 
 In simple terms, a TOF mass spectrometer sorts ions by how fast they travel through a tube. Lighter ions (with lower m/z ratios) hit the detector sooner, and this information is used to create a mass spectrum. 
 
 
-What can a time-of-flight MS do?
-  ### Time-of-Flight Mass Spectrometry (TOF-MS)
+### What can a time-of-flight MS do?
 
 A Time-of-Flight Mass Spectrometer (TOF-MS) is a powerful tool for measuring the masses of different molecules in a sample. It works by measuring how long it takes ions to travel through the instrument. Even though these travel times are only a few microseconds, the TOF-MS can accurately determine tiny differences in mass. This makes it excellent for providing high-resolution mass spectral data.
 
@@ -68,11 +61,57 @@ TOF-MS is particularly useful when you need to analyze the quality of a complex 
 
 
 
-Hybrid Instruments
+### Hybrid Instruments
 
 
 Hybrid instruments combine different mass separation techniques into one device. For example, some have a quadrupole section in front of the flight tube. These are often called "cut-off instruments." 
 
 With this type of mass spectrometer, you can measure the flight times of intact molecules or their fragments with high resolution. 
+
+****************
+## Collision Induced Dissociation (CID)
+
+Most molecular ions are stable when they are in the gas phase. However, we can make them break apart inside a mass spectrometer using a technique called Collision Induced Dissociation (CID). In this process, the ions collide with gas molecules, causing them to fragment at specific bonds within the molecule.
+
+These fragments are unique to each compound. By analyzing the pattern of these fragments, we can identify the original molecule in the sample.
+
+### Key Points:
+- **Stable Ions:** Molecular ions are generally stable in the gas phase.
+- **Induced Fragmentation:** We can force these ions to break apart using CID.
+- **Specific Bonds:** Fragmentation happens at specific bonds within the molecule.
+- **Unique Fragments:** The resulting fragments are unique to each compound.
+- **Identification:** By studying these fragments, we can determine which molecule was in the sample.
+
+This method is a powerful tool for identifying unknown compounds in a sample by breaking them down into their characteristic pieces. 
+
+
+
+## MS/MS Fragment Spectrum
+
+When we perform a CID (Collision-Induced Dissociation) experiment, we get an MS/MS spectrum as a result. To make sense of this data, it's essential to know that many mass spectrometers can select specific ions, known as precursor ions. These precursor ions are then fragmented, and the resulting smaller pieces, called fragment ions, are detected.
+
+The fragmentation happens at specific molecular bonds, which means that the fragment spectrum can tell apart different molecules, even if they have the same precursor mass. This is because the pattern of fragments will be different for each molecule.
+
+In an MS/MS spectrum, the x-axis shows the m/z (mass-to-charge) values of the fragment ions, and the y-axis shows their intensity. The intensity indicates how many of each fragment ion are detected.
+
+By analyzing this spectrum, we can identify and distinguish between different molecules based on their unique fragmentation patterns. 
+ 
+
+
+### MS/MS Fragmentation Naming Conventions
+
+In mass spectrometry, the process of breaking apart ions to study their fragments is known by several names: MS/MS, tandem MS, or MS². Here's a simple breakdown of the terms used in this technique:
+
+- **Precursor Ion**: Also called the parent ion, this is the original ion that is selected for fragmentation.
+- **Fragment Ions**: These are the smaller pieces that result from breaking apart the precursor ion. They are sometimes referred to as daughter ions.
+
+It's important to note that the types of fragment ions observed can vary depending on the specific setup of the mass spectrometer. Different instruments might produce different fragmentation patterns for the same molecule.
+
+This variability is illustrated in the following example:
+
+[Example would be inserted here]
+
+By understanding these basic terms and concepts, you can better interpret the results from MS/MS experiments and understand how different instruments might affect the outcomes. 
+
 
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introduction – Nazmul Alam, PhD</title>
+<title>extra – Nazmul Alam, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../mass/2-mass-spectra.html" rel="next">
-<link href="../mass/intro.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,40 +67,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -128,7 +97,7 @@ window.Quarto = {
 <span class="menu-text">HPLC</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../mass/intro.html" aria-current="page"> 
+    <a class="nav-link" href="../mass/intro.html"> 
 <span class="menu-text">MassSpec</span></a>
   </li>  
 </ul>
@@ -149,205 +118,31 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../mass/1-introduction.html">Mass Spec-101</a></li><li class="breadcrumb-item"><a href="../mass/1-introduction.html">Introduction</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mass Spec</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Mass Spec-101</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/1-introduction.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/2-mass-spectra.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mass Spectral Data</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/3-parameters.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Key Parameters</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/4-challenges.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Challenges in Mass Spectrometry</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/5-types-of-ms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Type of Mass Spectrometers</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/6-solutions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Solution to the Challenges</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../mass/7-summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Summary</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../mass/1-introduction.html">Mass Spec-101</a></li><li class="breadcrumb-item"><a href="../mass/1-introduction.html">Introduction</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Introduction</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>A mass spectrometer is a device used to analyze molecules by their molecular mass. Every mass spectrometer, regardless of its type, has three main parts:</p>
-<ul>
-<li>the ion source: creates charged particles from the sample</li>
-<li>the mass analyzer: sorts these particles by their mass</li>
-<li>the detector: measures them</li>
-</ul>
-<p>The collected data is then sent to a computer as mass spectra, where it can be analyzed and interpreted.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/1-three-components.jpg" class="img-fluid figure-img"></p>
-<figcaption>Three basic components of a mass spectrometer</figcaption>
-</figure>
-</div>
-<section id="molecular-mass-in-mass-spectromitry" class="level2">
-<h2 class="anchored" data-anchor-id="molecular-mass-in-mass-spectromitry">Molecular Mass In Mass Spectromitry</h2>
-<p>Molecular mass is a useful property for distinguishing different molecules. Each type of atom has a specific mass, so when you add up the masses of all the atoms in a molecule, you get its unique molecular mass. Therefore, molecular mass serves as a reliable fingerprint for molecules.</p>
-<p>Let’s look at caffeine as an example. Caffeine is made up of eight carbon atoms, ten hydrogen atoms, four nitrogen atoms, and two oxygen atoms. When you add up the weights of all these atoms, you get a molecular mass of 194.19 grams per mole.</p>
-<p>The elemental composition thus determines the molecular mass</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/2-caffeine.jpg" class="img-fluid figure-img"></p>
-<figcaption>Caffeine as an example</figcaption>
-</figure>
-</div>
-<p>The types and numbers of atoms in a molecule determine its molecular mass. This makes molecular mass a unique and important characteristic for identifying different molecules.</p>
-<section id="molecular-ions-in-mass-spectrometry" class="level3">
-<h3 class="anchored" data-anchor-id="molecular-ions-in-mass-spectrometry">Molecular Ions In Mass Spectrometry</h3>
-<p>A mass spectrometer detects ions, not neutral molecules. This means that if a molecule cannot form an ion, it cannot be detected by the instrument. Additionally, these ions must be stable in the gas phase to be measured accurately.</p>
-<p>Fortunately, many different molecules can form either positively or negatively charged ions that are stable in the gas phase and can be detected. In positive ion mode, molecules are often detected in their protonated form, meaning they have gained a proton (H⁺).</p>
-<p><img src="img/3-protonated-caffeine.jpg" class="img-fluid"></p>
-<p>This ability to form ions is crucial for the mass spectrometer to work effectively, allowing us to analyze a wide range of substances.</p>
-<p>In negative ion mode, most molecules become ions by losing a proton. The best ion mode to use depends on the specific molecule you are analyzing.</p>
-<p><img src="img/4-negative-SA.jpg" class="img-fluid"></p>
-<p>When the properties of molecules allow, we can observe them as multiply charged ions. This is often true for larger molecules, such as peptides or proteins. Thus the molecular ions have a certain Mass to charge ratio which is an important measure in mass spectrom</p>
+<section id="isotope-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="isotope-patterns">Isotope patterns</h3>
+<p>When we look at the signal from a single ion, we see a group of peaks instead of just one peak. These peaks are called isotopic peaks and they reflect the natural distribution of isotopes in the elements that make up the compound.</p>
+<p>The isotope pattern of a compound is mainly influenced by its carbon atoms. Most carbon atoms (98.89%) have a mass of exactly 12 Daltons. However, about 1.1% of carbon atoms have an extra neutron, giving them a mass of 13 Daltons.</p>
+<p>The monoisotopic mass of a compound is the mass of molecules that contain only carbon-12 atoms. The next peak, or the second isotope peak, represents molecules that have one carbon-13 atom. The peak after that represents molecules with two carbon-13 atoms, and so on. This results in a mass difference of approximately one Dalton between the isotopic peaks of a compound.</p>
 </section>
-<section id="determining-the-mass-to-charge-mz-ratio" class="level3">
-<h3 class="anchored" data-anchor-id="determining-the-mass-to-charge-mz-ratio">Determining the mass-to-charge (m/z) Ratio</h3>
-<p>To determine the m/z ratio of a molecule, you first need to know its molecular mass. For simplicity, we’ll use the nominal mass, ignoring decimal places in atomic masses.</p>
-<p>Let’s take salicylic acid (SA) as an example. The nominal mass (M) of SA is 138 Daltons.</p>
-<p>When using negative ion mode in mass spectrometry, SA typically loses a proton with a mass of approximately 1 Dalton.</p>
-<p>Here’s how you calculate the m/z ratio:</p>
-<ol type="1">
-<li><strong>Subtract the Mass:</strong> subtract the mass of SA (138 Daltons) with the mass of the removed proton (1 Dalton).</li>
-</ol>
-<p><span class="math display">\[ 138 \, Daltons - 1\, Dalton = 137\, Daltons\]</span></p>
-<ol start="2" type="1">
-<li><strong>Divide by the Charge:</strong> Since the released proton has a charge of +1, you divide the total mass by this charge.</li>
-</ol>
-<p><span class="math display">\[\frac{137 \, Daltons}{ 1}= 137\]</span></p>
-<p>So, the m/z value for SA in negative ion mode is 137.</p>
-</section>
-<section id="general-formula-for-mz-ratios" class="level3">
-<h3 class="anchored" data-anchor-id="general-formula-for-mz-ratios">General Formula for m/z Ratios</h3>
-<p>To calculate the m/z ratio for any positively or negatively charged ion, always consider the number of protons added or removed:</p>
-<ol type="1">
-<li><strong>Positive Ion Mode:</strong> Add the number of protons to the molecular mass.</li>
-<li><strong>Negative Ion Mode:</strong> Subtract the number of protons from the molecular mass.</li>
-<li><strong>Divide by the Charge:</strong> Finally, divide the adjusted mass by the charge (z).</li>
-</ol>
-<p>By following these steps, you can easily determine the m/z ratio for any molecule.</p>
-</section>
-<section id="function-of-the-main-parts-of-a-mass-spectrometer" class="level3">
-<h3 class="anchored" data-anchor-id="function-of-the-main-parts-of-a-mass-spectrometer">Function of the Main Parts of a Mass Spectrometer</h3>
-<p>A mass spectrometer has three main functional parts: the ion source, the mass analyzer, and the detector. Let’s break down what each part does:</p>
-<ol type="1">
-<li><strong>Ion Source</strong>
-<ul>
-<li>This is where molecules are prepared for detection. First, the solvent is removed, leaving the molecules in the gas phase. Then, the molecules are ionized, meaning they are given a charge so they can be detected.</li>
-<li>There are different ways to ionize molecules. The most common method is called Electrospray Ionization (ESI). Another widely used method is Atmospheric Pressure Chemical Ionization (APCI).</li>
-</ul></li>
-<li><strong>Mass Analyzer</strong>
-<ul>
-<li>Once the molecules are ionized and in the gas phase, they enter the mass analyzer. This part operates under a vacuum to keep the ions in the gas phase and allow them to move freely.</li>
-<li>The mass analyzer separates the ions based on their mass-to-charge ratio (m/z). This means it sorts ions according to their mass and charge.</li>
-<li>There are various types of mass analyzers, each using different physical principles to separate ions by their m/z ratios.</li>
-</ul></li>
-<li><strong>Detector</strong>
-<ul>
-<li>The detector measures how many ions with a specific m/z ratio hit its surface at any given time.</li>
-<li>This information is used to create a mass spectrum, which helps identify and quantify the molecules in the sample.</li>
-</ul></li>
-</ol>
-<p>Here’s a video from Sciex that explains the process visually:</p>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/VUmcxNLHu4Y?start=80" width="85%" height="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="information-gained-by-isotope-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="information-gained-by-isotope-patterns">Information gained by isotope patterns</h3>
+<p>Isotope patterns in mass spectrometry can provide a lot of useful information about a sample. By examining the distances between signals in an isotope pattern, you can determine the charge state of the analyte. For instance, if you see that the signals are spaced about one dalton apart, the ion is likely singly charged. If the signals are spaced about 0.5 dalton apart, the ion is likely doubly charged.</p>
+<p>Additionally, certain elements have unique isotope patterns that can help you identify the elemental composition of the analyte. For example, if the third isotope peak is higher than the second one, it suggests that the compound contains chlorine or bromine.</p>
+<p>By paying attention to these details, you can gain valuable insights into the nature of the analyte you are studying.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -771,18 +566,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../mass/intro.html" class="pagination-link" aria-label="Mass Spec">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Mass Spec</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../mass/2-mass-spectra.html" class="pagination-link" aria-label="Mass Spectral Data">
-        <span class="nav-page-text">Mass Spectral Data</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
