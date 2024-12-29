@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -125,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../mass/1-introduction.html">Mass Spec-101</a></li><li class="breadcrumb-item"><a href="../mass/3-parameters.html">Key Parameters</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../mass/mspec101.html">Mass Spec-101</a></li><li class="breadcrumb-item"><a href="../mass/3-parameters.html">Key Parameters</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -148,12 +177,12 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../mass/intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mass Spec</span></a>
+ <span class="menu-text">Mass Spectrometry</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a href="../mass/mspec101.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mass Spec-101</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -213,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../mass/1-introduction.html">Mass Spec-101</a></li><li class="breadcrumb-item"><a href="../mass/3-parameters.html">Key Parameters</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../mass/mspec101.html">Mass Spec-101</a></li><li class="breadcrumb-item"><a href="../mass/3-parameters.html">Key Parameters</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Key Parameters</h1>
 </div>
@@ -235,12 +264,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="mass-range" class="level3">
 <h3 class="anchored" data-anchor-id="mass-range">Mass Range</h3>
 <p>Each type of mass spectrometer can detect ions within a specific range of mass-to-charge (m/z) values. Think of this like the field of view in photography—some lenses capture wide angles, while others zoom in on details. In mass spectrometry, you can control which ions are allowed to enter the instrument for detection.</p>
-<p>For instance, in this example, the mass range is set between m/z 200 and m/z 1800. By focusing only on the necessary range for your analysis, you can improve the quality of your data.</p>
+<p><img src="img/3-1-mass-range.svg" class="img-fluid"></p>
+<p>For instance, in this example, the mass range is set between m/z 200 and m/z 900. By focusing only on the necessary range for your analysis, you can improve the quality of your data.</p>
 </section>
 <section id="mass-accuracy" class="level3">
 <h3 class="anchored" data-anchor-id="mass-accuracy">Mass Accuracy</h3>
 <p>Accuracy refers to how well an instrument can determine a specific value. For example, scales can measure different weights with varying degrees of accuracy, meaning how closely they can measure the actual weight of an object. Think of it like aiming for the Bull’s Eye on a dartboard—the closer you get, the more accurate you are.</p>
 <p>In mass spectrometry, mass accuracy is a measure of how well the instrument can determine the m/z (mass-to-charge) value of a molecule compared to the expected value. The closer these values match, the more reliable your analysis results will be. This accuracy is usually expressed in parts per million (ppm).</p>
+<p><img src="img/3-2-mass-accuracy.svg" class="img-fluid"></p>
+<p><span class="math display">\[
+Mass \; Accuracy = \frac{measured \; mass-true \; mass}{true \; mass} *10^6
+\]</span> For our caffeine example, let’s cacluate the mass accuracy using the caffeine spectrum. <span class="math display">\[
+Mass \; Accuracy = \frac{195.08745- 195.08765}{195.08765} *10^6 = -1 \;ppm
+\]</span></p>
 <p>To ensure precise m/z ratio measurements, it is essential to perform an accurate mass calibration of the mass spectrometer. This calibration helps in making sure that the instrument provides accurate readings.</p>
 </section>
 <section id="scan-speed" class="level3">
@@ -248,6 +284,7 @@ ul.task-list li input[type="checkbox"] {
 <p>In mass spectrometry, the detector doesn’t continuously record incoming ions. Instead, it takes successive snapshots, called scans. You can think of these scans like frames in a movie.</p>
 <p>The scan speed determines how many scans are taken over a certain period. If the scan speed is high, the detector captures more scans in a given time. This makes it less likely to miss any ions that enter the mass spectrometer.</p>
 <p>Imagine you’re trying to take a photograph of people crossing a busy train station. If your camera takes pictures slowly, you might miss capturing some of the people in action. Similarly, in mass spectrometry, a slower scan speed increases the chances of missing some ions. Just as you would miss some of the people who move quickly through the station, a slow scan speed in mass spectrometry might fail to detect ions that are present for only a brief moment.</p>
+<p><img src="img/3-3-scan-speed.jpg" class="img-fluid"></p>
 </section>
 <section id="mass-resolution" class="level3">
 <h3 class="anchored" data-anchor-id="mass-resolution">Mass Resolution</h3>

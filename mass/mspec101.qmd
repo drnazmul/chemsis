@@ -1,0 +1,31 @@
+---
+title: "Topics covered in Mass Spec-101"
+---
+
+
+```{mermaid}
+mindmap
+  root((Mass Spec))
+    Introduction
+      Molecular mass and ions
+      m/z ratio
+      Main Parts
+    Mass Spectral Data
+      Mass Spectrum
+      Total Ion Chromatogram
+      Extracted Ion Chromatogram
+      Base Peak Chromatogram
+    Key Parameters
+      Mass Range
+      Mass Accuracy
+      Scan Speed
+      Mass Resolution
+      Sensitivity
+      Signal to Noise Ratio
+    Challenges in MS
+      Isobaric Structure
+      Nearisobaric Structure
+      Complex Samples
+```
+
+ 

@@ -1,6 +1,4 @@
 ---
-title: "Mass Spec"
+title: "Mass Spectrometry"
 ---
-
-
- An image
+A picture showing bird's view of the course

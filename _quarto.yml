@@ -47,11 +47,11 @@ website:
           contents:
             - hplc/ch-1.qmd
             - hplc/ch-2.qmd
-    - title: "MassSpec"
+    - title: "Mass Spectrometry"
       contents:
         - mass/intro.qmd
         - section: "Mass Spec-101"
-          #href: mass/ch-1.qmd
+          href: mass/mspec101.qmd
           contents:
             - mass/1-introduction.qmd
             - mass/2-mass-spectra.qmd

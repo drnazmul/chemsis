@@ -56,10 +56,6 @@ I hope this version is clearer and easier to understand!
 
 
 
-
-
-
-
 High resolution MS data
  ---
 
@@ -76,12 +72,6 @@ The mass resolution of a mass spectrometer is crucial because it determines how 
 ---
 
 This version simplifies the language and breaks down the benefits of high-resolution mass spectrometry for better understanding. 
-
-
-
-
-
-
 
 MRM experiments
  ### MRM Experiments Explained
